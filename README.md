@@ -11,6 +11,10 @@
 
 A full-stack, real-time job board where **job seekers** search and apply for roles, and **employers** post jobs, review candidates, and manage their hiring pipeline — all from one app.
 
+**description**
+Convex, the backend platform that powers this app, is a real-time database and backend-as-a-service that provides a seamless developer experience for building real-time applications. It is a serverless platform that allows developers to build applications with real-time data synchronization, authentication, and file storage. It is a great platform for building real-time applications with real-time data synchronization, authentication, and file storage.
+
+
 > **Who is this for?**
 > Anyone who wants to learn how to build a production-grade, two-sided SaaS marketplace using modern tools — or anyone looking for a solid starter template to launch their own job platform.
 
@@ -475,3 +479,4 @@ See the full [LICENSE.md](LICENSE.md) for details.
 - **Clerk Organizations** — Each company workspace is a Clerk organization. Users can belong to multiple organizations with different roles.
 - **Webhook Sync** — When a user signs up or an organization is created in Clerk, a webhook fires and syncs the data to Convex. This keeps the two systems in sync without manual API calls.
 - **`proxy.ts` Middleware** — Replaces traditional `middleware.ts` in Next.js 16. Protects routes and ensures company routes require organization membership.
+# next-s_clerk_convex_multi-tenant
